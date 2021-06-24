@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jonathan",
+      "lastName": "Lopes",
+      "age": 27,
+      "address": {
+        "street": "Mario Pavanello",
+        "number": 200,
+        "district": "Nova Mauá"
+      },
+      "wallet": {
+        "currency": "R$",
+        "bank": "Nubank",
+        "type": "Conta Corrente",
+        "amount": 10000
+      }
+    },
+    {
+      "id": 2,
+      "name": "Raul",
+      "lastName": "Silva",
+      "age": 22,
+      "currency": "R$",
+      "address": {
+        "street": "Adutora do rio claro",
+        "number": 200,
+        "district": "Nova Mauá"
+      },
+      "wallet": [
+        {
+          "id": 100,
+          "bank": "Banco Inter",
+          "type": "Conta Corrente",
+          "amount": 1000
+        },
+        {
+          "id": 200,
+          "bank": "Nubank",
+          "type": "Poupança",
+          "amount": 20000
+        },
+        {
+          "id": 201,
+          "bank": "Nubank",
+          "type": "Poupança",
+          "amount": 20000
+        },
+        {
+          "id": 202,
+          "bank": "Nubank",
+          "type": "Poupança",
+          "amount": 20000
+        },
+        {
+          "id": 203,
+          "bank": "Nubank",
+          "type": "Poupança",
+          "amount": 20000
+        }
+      ],
+      "goals": [
+        {
+          "id": 1000,
+          "name": "Curso tecnologia",
+          "date": "20-01-2021",
+          "value": 20000,
+          "amount": 1000
+        },
+        {
+          "id": 1001,
+          "name": "Material de construção",
+          "date": "20-01-2021",
+          "value": 20000,
+          "amount": 19000
+        },
+        {
+          "id": 1002,
+          "name": "Material escolar",
+          "date": "20-01-2021",
+          "value": 20000,
+          "amount": 19000
+        }
+      ]
+    }
+  ]
+}
